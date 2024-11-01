@@ -1,0 +1,44 @@
+/**
+ * Wordpress Checkout 
+ * Presentation: Default 
+ * Plugin URI: http://wordpress-checkout.com/
+ *
+*/
+.wpckt_item_qty {
+  width:50px;
+}
+
+.wpckt_warning {
+	background-color: #FFFBE4;
+	padding: 10px;
+	border: 1px #ffba00 solid;
+	margin: 10px 0;
+	clear:both
+}
+
+.wpckt-spinner {
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:10px;
+	top: 10px;	
+}
+
+.wpckt_verifying{
+   position:relative;
+}
+
+.wpckt_product.alignleft {
+   margin: 0px 20px 0px 0;
+   float:left;
+}
+
+.wpckt_product.alignright {
+   margin: 0px 0px 0px 20px;
+   float:left;
+}
+
+.wpckt_product.aligncenter {
+   margin: 0px auto;
+   clear:both;
+}

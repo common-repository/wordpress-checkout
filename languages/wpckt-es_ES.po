@@ -1,0 +1,823 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Checkout\n"
+"POT-Creation-Date: 2014-03-02 09:32-0500\n"
+"PO-Revision-Date: 2014-03-02 10:55-0500\n"
+"Last-Translator: Alain Gonzalez <support@web-argument.com>\n"
+"Language-Team: wp checkout <support@web-arguemnt.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: \\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: wordpress-checkout\n"
+
+#: wordpress-checkout/includes/admin.php:53
+msgid "required"
+msgstr "obligatorio"
+
+#: wordpress-checkout/includes/admin.php:167
+#: wordpress-checkout/includes/admin.php:365
+msgid "Wordpress Checkout"
+msgstr ""
+
+#: wordpress-checkout/includes/admin.php:171
+#: wordpress-checkout/includes/admin.php:174
+#: wordpress-checkout/includes/admin.php:375
+msgid "WP Checkout"
+msgstr ""
+
+#: wordpress-checkout/includes/admin.php:208
+msgid "Make this my <strong>Checkout Page</strong>"
+msgstr "Hacer esta mi página de procesamiento de pagos"
+
+#: wordpress-checkout/includes/admin.php:209
+msgid ""
+"In order to set up your store you need to create a checkout page by adding "
+"the wp_checkout shortcode with"
+msgstr ""
+"Para completar el proceso de configuración se necesita una página de "
+"procesamiento de pagos usando el shortcode wp_checkout con la  section="
+"\"checkout\"."
+
+#: wordpress-checkout/includes/admin.php:216
+msgid "Add a Product"
+msgstr "Agregar Producto"
+
+#: wordpress-checkout/includes/admin.php:234
+msgid "Product Details"
+msgstr "Detalles del Producto"
+
+#: wordpress-checkout/includes/admin.php:239
+msgid "Name"
+msgstr "Nombre"
+
+#: wordpress-checkout/includes/admin.php:241
+msgid "Add a name in case you want to add more than one product to this page"
+msgstr ""
+"Agregar nombre en caso de que se quieran incluir más de un producto en esta "
+"página."
+
+#: wordpress-checkout/includes/admin.php:246
+#: wordpress-checkout/presentation/default/functions.php:117
+#: wordpress-checkout/presentation/default/functions.php:199
+#: wordpress-checkout/presentation/default/functions.php:472
+msgid "Price"
+msgstr "Precio"
+
+#: wordpress-checkout/includes/admin.php:253
+msgid "Flat Shipping and Handling"
+msgstr "Costo de envío y procesamiento"
+
+#: wordpress-checkout/includes/admin.php:261
+msgid "Weight"
+msgstr "Peso"
+
+#: wordpress-checkout/includes/admin.php:268
+msgid "Button Text"
+msgstr "Texto del Botón"
+
+#: wordpress-checkout/includes/admin.php:269
+#: wordpress-checkout/includes/functions.php:145
+msgid "Add to Cart"
+msgstr "Agregar"
+
+#: wordpress-checkout/includes/admin.php:276
+msgid "Go directly to the checkout page"
+msgstr "Ir directamente a la página de procesamiento"
+
+#: wordpress-checkout/includes/admin.php:278
+msgid "Valid if you are selling only one product"
+msgstr "Válido si usted está vendiendo un solo producto"
+
+#: wordpress-checkout/includes/admin.php:287
+msgid "Include the quantity field"
+msgstr "Incluir campo de cantidad"
+
+#: wordpress-checkout/includes/admin.php:290
+#: wordpress-checkout/includes/admin.php:671
+msgid "* required fields"
+msgstr "* campos obligatorios"
+
+#: wordpress-checkout/includes/admin.php:301
+msgid "Label Settings"
+msgstr "Configuración de Etiqueta"
+
+#: wordpress-checkout/includes/admin.php:306
+msgid "Align"
+msgstr "Alinear"
+
+#: wordpress-checkout/includes/admin.php:309
+msgid "none"
+msgstr "no"
+
+#: wordpress-checkout/includes/admin.php:310
+msgid "left"
+msgstr "izquierda"
+
+#: wordpress-checkout/includes/admin.php:311
+msgid "center"
+msgstr "centro"
+
+#: wordpress-checkout/includes/admin.php:312
+msgid "right"
+msgstr "derecha"
+
+#: wordpress-checkout/includes/admin.php:318
+msgid "Width"
+msgstr "Ancho"
+
+#: wordpress-checkout/includes/admin.php:335
+msgid "Shortcode"
+msgstr ""
+
+#: wordpress-checkout/includes/admin.php:340
+msgid ""
+"This shortcode will be added to the post and replaced by product details "
+"when you view the page"
+msgstr ""
+"Este shortcode será añadido al contenido y reemplazado por los detalles del "
+"producto cuando se despliega la página"
+
+#: wordpress-checkout/includes/admin.php:348
+msgid "Insert Product"
+msgstr "Insertar Producto"
+
+#: wordpress-checkout/includes/admin.php:348
+msgid "Insert into post"
+msgstr "Agregar al contenido"
+
+#: wordpress-checkout/includes/admin.php:350
+msgid "Update Product"
+msgstr "Actualizar"
+
+#: wordpress-checkout/includes/admin.php:350
+#: wordpress-checkout/includes/admin.php:673
+msgid "Update"
+msgstr "Actualizar"
+
+#: wordpress-checkout/includes/admin.php:376
+msgid "WP Checkout Settings"
+msgstr "WP Checkout Configuración"
+
+#: wordpress-checkout/includes/admin.php:376
+#: wordpress-checkout/includes/admin.php:963
+msgid "Settings"
+msgstr "Configuración"
+
+#: wordpress-checkout/includes/admin.php:377
+msgid "WP Checkout Orders"
+msgstr "WP Checkout Ordenes"
+
+#: wordpress-checkout/includes/admin.php:377
+msgid "Orders"
+msgstr "Ordenes"
+
+#: wordpress-checkout/includes/admin.php:393
+#: wordpress-checkout/includes/admin.php:692
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Usted no tiene permisos suficientes para acceder esta página"
+
+#: wordpress-checkout/includes/admin.php:404
+msgid "WP Checkout - Settings"
+msgstr "WP Checkout - Configuración"
+
+#: wordpress-checkout/includes/admin.php:434
+msgid "Please complete the required fields."
+msgstr "Por favor complete los campos requeridos"
+
+#: wordpress-checkout/includes/admin.php:441
+msgid "Please verify your email address."
+msgstr "Por favor verifique su dirección de correo electrónico"
+
+#: wordpress-checkout/includes/admin.php:463
+msgid "The Options has been updated!"
+msgstr "Las opciones han sido actualizadas!"
+
+#: wordpress-checkout/includes/admin.php:480
+#: wordpress-checkout/presentation/default/functions.php:538
+msgid "Shopping Cart"
+msgstr "Carro de compra"
+
+#: wordpress-checkout/includes/admin.php:485
+msgid "Currency"
+msgstr "Moneda"
+
+#: wordpress-checkout/includes/admin.php:490
+msgid "- Select Currency -"
+msgstr "- Seleccionar moneda - "
+
+#: wordpress-checkout/includes/admin.php:501
+msgid "Checkout Page"
+msgstr "Página de procesamiento"
+
+#: wordpress-checkout/includes/admin.php:505
+msgid "- Select Page -"
+msgstr "- Seleccione página -"
+
+#: wordpress-checkout/includes/admin.php:517
+msgid ""
+"This is a page that includes this shortcode: [wp_checkout section=\"checkout"
+"\"]. You can also add it using the wp checkout editor button."
+msgstr ""
+"Esta es la página que contiene el shortcode: [wp_checkout section=\"checkout"
+"\"]. También puede agregar el shortcode usando el botón en el editor."
+
+#: wordpress-checkout/includes/admin.php:525
+msgid "PayPal Payments Standard"
+msgstr "PayPal Payments Standard"
+
+#: wordpress-checkout/includes/admin.php:531
+#, fuzzy
+msgid "PayPal Process Url"
+msgstr "Dirección de procesamiento de Paypal"
+
+#: wordpress-checkout/includes/admin.php:533
+msgid "Production"
+msgstr "Producción"
+
+#: wordpress-checkout/includes/admin.php:534
+msgid "Sandbox"
+msgstr ""
+
+#: wordpress-checkout/includes/admin.php:538
+msgid "PayPal E-mail"
+msgstr ""
+
+#: wordpress-checkout/includes/admin.php:548
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:80
+msgid "Shipping"
+msgstr "Costo de Envío"
+
+#: wordpress-checkout/includes/admin.php:556
+msgid "Use flat shipping and handling cost for products."
+msgstr "Usar un costo de envío y procesamiento fijo. "
+
+#: wordpress-checkout/includes/admin.php:563
+msgid "Use weight for shipping calculation."
+msgstr "Usar peso para calcular el costo de envío."
+
+#: wordpress-checkout/includes/admin.php:564
+msgid ""
+"Shipping cost can be calculated based on weight and regions using PayPal "
+"Shipping Calculations"
+msgstr ""
+"El costo de envío puede ser calculado en base al peso y la región usando "
+"PayPal Shipping Calculations"
+
+#: wordpress-checkout/includes/admin.php:564
+msgid "PayPal Shipping Calculations"
+msgstr "Cálculo de envío de PayPal"
+
+#: wordpress-checkout/includes/admin.php:564
+msgid "Read More"
+msgstr "Leer Más"
+
+#: wordpress-checkout/includes/admin.php:570
+msgid "Weight Unit"
+msgstr "Unidad de medida de peso"
+
+#: wordpress-checkout/includes/admin.php:580
+msgid "Notes"
+msgstr "Notas"
+
+#: wordpress-checkout/includes/admin.php:582
+#, fuzzy
+msgid ""
+"Add some notes to the buyer before processing the order with paypal. eg. The "
+"total ammount doesn't include tax and shipping cost. It will be added on "
+"PayPal before completing your order."
+msgstr ""
+"Agregue algunas notas para los compradores antes de procesar las ordenes con "
+"paypal. Ejemplo: El monto total no incluye los costos de impuestos y envío."
+
+#: wordpress-checkout/includes/admin.php:596
+msgid "Confirmation page"
+msgstr "Página de confirmación"
+
+#: wordpress-checkout/includes/admin.php:601
+msgid "Thank You message"
+msgstr "Mensaje de agradecimiento"
+
+#: wordpress-checkout/includes/admin.php:613
+msgid "Custom Thank You page"
+msgstr "Página de agradecimiento personalizada"
+
+#: wordpress-checkout/includes/admin.php:616
+msgid ""
+"Use this thank you page to be shown after a successful transaction. If you "
+"don't define one the above message will be shown on the Checkout/Process "
+"Page."
+msgstr ""
+"Usar esta página después de una transacción exitosa. Si no se define una "
+"página se mostrará el mensaje anterior en la página de procesamiento."
+
+#: wordpress-checkout/includes/admin.php:625
+msgid "Confirmation E-mail"
+msgstr "Mensaje de correo electrónico de Confirmación"
+
+#: wordpress-checkout/includes/admin.php:630
+msgid "Subject"
+msgstr "Asunto"
+
+#: wordpress-checkout/includes/admin.php:637
+msgid "Body"
+msgstr "Contenido"
+
+#: wordpress-checkout/includes/admin.php:653
+msgid "Presentations"
+msgstr "Presentación"
+
+#: wordpress-checkout/includes/admin.php:658
+#: wordpress-checkout/includes/admin.php:790
+#: wordpress-checkout/includes/admin.php:812
+msgid "Options"
+msgstr "Opciones"
+
+#: wordpress-checkout/includes/admin.php:673
+msgid "Restore Default"
+msgstr "Restaurar "
+
+#: wordpress-checkout/includes/admin.php:695
+msgid "There are no orders to display yet."
+msgstr "No hay ordenes que mostrar"
+
+#: wordpress-checkout/includes/admin.php:700
+msgid "WP Checkout - Orders"
+msgstr "WP Checkout - Ordenes"
+
+#: wordpress-checkout/includes/admin.php:722
+#: wordpress-checkout/includes/admin.php:737
+msgid "Order Deleted"
+msgstr "Ordenes Eliminadas"
+
+#: wordpress-checkout/includes/admin.php:724
+msgid "Orders Deleted"
+msgstr "Orden Eliminada"
+
+#: wordpress-checkout/includes/admin.php:759
+#: wordpress-checkout/includes/admin.php:888
+msgid "Bulk Actions"
+msgstr "Acción"
+
+#: wordpress-checkout/includes/admin.php:760
+#: wordpress-checkout/includes/admin.php:849
+#: wordpress-checkout/includes/admin.php:889
+#: wordpress-checkout/includes/tinymce/wpcheckout/langs/wp-langs.php:5
+msgid "Delete"
+msgstr "Eliminar"
+
+#: wordpress-checkout/includes/admin.php:762
+#: wordpress-checkout/includes/admin.php:891
+msgid "Apply"
+msgstr "Aplicar"
+
+#: wordpress-checkout/includes/admin.php:846
+msgid "Show Details"
+msgstr "Mostrar Detalles"
+
+#: wordpress-checkout/includes/admin.php:856
+msgid "You are about to delete this order."
+msgstr "Esta orden será eliminada"
+
+#: wordpress-checkout/includes/admin.php:858
+msgid "Continue"
+msgstr "Continuar"
+
+#: wordpress-checkout/includes/admin.php:860
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: wordpress-checkout/includes/admin.php:865
+#: wordpress-checkout/includes/admin.php:869
+msgid "Hide"
+msgstr "Ocultar"
+
+#: wordpress-checkout/includes/admin.php:897
+msgid "Save all changes"
+msgstr "Guardar los cambios"
+
+#: wordpress-checkout/includes/admin.php:978
+#: wordpress-checkout/includes/admin.php:994
+msgid "Live Demo"
+msgstr "Demostración"
+
+#: wordpress-checkout/includes/admin.php:979
+#: wordpress-checkout/includes/admin.php:993
+msgid "How To Use"
+msgstr "Como usar"
+
+#: wordpress-checkout/includes/admin.php:995
+msgid "Support"
+msgstr "Soporte"
+
+#: wordpress-checkout/includes/cart.php:43
+msgid ""
+"Your php configuration doesn't support session please enable it to allow the "
+"plugin work properly"
+msgstr "La configuración de PHP no permite sesiones"
+
+#: wordpress-checkout/includes/cart.php:365
+msgid "Order Completed"
+msgstr "Orden Completada"
+
+#: wordpress-checkout/includes/cart.php:387
+msgid "Invalid IPN"
+msgstr "IPN Inválido"
+
+#: wordpress-checkout/includes/functions.php:65
+msgid "There was a problem updating the Wordpress Checkout Database"
+msgstr ""
+"Se produjo un problema actualizando la base de datos de Wordpress Checkout"
+
+#: wordpress-checkout/includes/functions.php:88
+msgid "Thank you! We will start processing your order immediately."
+msgstr "Gracias! Comenzaremos a procesar su orden inmediatamente."
+
+#: wordpress-checkout/includes/functions.php:89
+msgid " - Confirmation."
+msgstr "- Confirmación"
+
+#: wordpress-checkout/includes/functions.php:90
+msgid ""
+"Thank you! This email is to confirm that your transaction has been "
+"completed. We will start processing your order immediately."
+msgstr ""
+"Gracias! Este correo electrónico es para confirmar que su transacción se "
+"completó. Comenzaremos a procesar su orden inmediatamente."
+
+#: wordpress-checkout/includes/functions.php:338
+msgid ""
+"You can include the following elements related to the buyer order into the "
+"message: "
+msgstr ""
+"Se pueden incluir los siguientes elementos relacionados con el cliente en el "
+"mensaje."
+
+#: wordpress-checkout/includes/functions.php:411
+msgid "lbs"
+msgstr ""
+
+#: wordpress-checkout/includes/functions.php:412
+msgid "kgs"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:276
+msgid "PAYMENT INFO"
+msgstr "INFORMACION DE PAGO"
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:278
+msgid "payment_status:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:279
+msgid "payment_gross:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:280
+msgid "payment_fee:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:281
+msgid "payment_date:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:282
+msgid "payment_type:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:284
+msgid "receiver_email:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:285
+msgid "receiver_id:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:286
+msgid "verify_sign:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:287
+msgid "business:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:288
+msgid "test_ipn:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:289
+msgid "transaction_subject:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:290
+msgid "txn_type:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:291
+msgid "txn_id:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:292
+msgid "protection_eligibility:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:293
+msgid "address_status:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:294
+msgid "charset:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:299
+msgid "first_name:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:300
+msgid "last_name:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:301
+msgid "payer_email:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:302
+msgid "payer_id:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:303
+msgid "payer_status:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:305
+msgid "address_name:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:306
+msgid "address_street:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:307
+msgid "address_city:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:308
+msgid "address_state:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:309
+msgid "address_zip:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:310
+msgid "address_country:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:311
+msgid "address_country_code:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:316
+msgid "gross:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:317
+msgid "fee:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:318
+msgid "currency:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:319
+msgid "shipping:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:320
+msgid "tax:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:321
+msgid "cart_items:"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:326
+msgid "ITEM "
+msgstr "ARTICULOS"
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:327
+msgid "item_number"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:328
+msgid "item_name"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:329
+msgid "gross_"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:330
+msgid "shipping"
+msgstr "Costo de Envío"
+
+#: wordpress-checkout/includes/classes/class.wpckt-ipnlistener.php:331
+msgid "quantity"
+msgstr "cantidad"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:15
+msgid "Date"
+msgstr "Fecha"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:20
+msgid "Order ID"
+msgstr "Orden ID"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:25
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:30
+msgid "Items"
+msgstr "Artículos"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:35
+msgid "Sub Total"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:40
+msgid "Gross"
+msgstr "Total"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:45
+msgid "First Name"
+msgstr "Nombre"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:49
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:53
+msgid "Email"
+msgstr "Email"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:57
+msgid "Address"
+msgstr "Dirección"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:62
+msgid "Status"
+msgstr "Estado"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:67
+msgid "Verify Sign"
+msgstr "Verificación"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:71
+msgid "Gateway"
+msgstr ""
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:75
+msgid "Type"
+msgstr "Tipo"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:84
+msgid "Tax"
+msgstr "Impuestos"
+
+#: wordpress-checkout/includes/classes/class.wpckt-orders-engine.php:89
+msgid "Detail"
+msgstr "Detalles"
+
+#: wordpress-checkout/includes/classes/class.wpckt-widget.php:21
+msgid "Allows to see the products added and to access the process page"
+msgstr ""
+"Permite ver los productos agregados al carro de compra y acceder a la página "
+"de procesamiento."
+
+#: wordpress-checkout/includes/classes/class.wpckt-widget.php:117
+msgid "items in your cart"
+msgstr "artículos"
+
+#: wordpress-checkout/includes/classes/class.wpckt-widget.php:118
+msgid "Proceed to checkout"
+msgstr "Proceder"
+
+#: wordpress-checkout/includes/classes/class.wpckt-widget.php:123
+msgid "Title:"
+msgstr "Título:"
+
+#: wordpress-checkout/includes/classes/class.wpckt-widget.php:130
+msgid "Cart message:"
+msgstr "Mensaje:"
+
+#: wordpress-checkout/includes/classes/class.wpckt-widget.php:133
+msgid "e.g."
+msgstr "Ejemplo:"
+
+#: wordpress-checkout/includes/classes/class.wpckt-widget.php:138
+msgid "Button info:"
+msgstr "Texto del Botón"
+
+#: wordpress-checkout/includes/tinymce/wpcheckout/langs/wp-langs.php:4
+msgid "Edit"
+msgstr "Modificar"
+
+#: wordpress-checkout/presentation/default/functions.php:124
+#: wordpress-checkout/presentation/default/functions.php:198
+#: wordpress-checkout/presentation/default/functions.php:471
+msgid "Qty"
+msgstr "Cdad"
+
+#: wordpress-checkout/presentation/default/functions.php:161
+msgid "Please include the price of the product."
+msgstr "Por favor, agregue el precio del producto."
+
+#: wordpress-checkout/presentation/default/functions.php:197
+#: wordpress-checkout/presentation/default/functions.php:470
+msgid "Item"
+msgstr "Artículo"
+
+#: wordpress-checkout/presentation/default/functions.php:219
+msgid "Remove"
+msgstr "Eliminar"
+
+#: wordpress-checkout/presentation/default/functions.php:229
+msgid "Sub-total"
+msgstr ""
+
+#: wordpress-checkout/presentation/default/functions.php:233
+msgid "Update Cart"
+msgstr "Actualizar"
+
+#: wordpress-checkout/presentation/default/functions.php:240
+msgid "Proceed to Checkout >"
+msgstr "Proceder >"
+
+#: wordpress-checkout/presentation/default/functions.php:278
+msgid "Verify your Order"
+msgstr "Verificar Orden"
+
+#: wordpress-checkout/presentation/default/functions.php:322
+msgid "Process with PayPal"
+msgstr "Procesar con PayPal"
+
+#: wordpress-checkout/presentation/default/functions.php:326
+msgid "< Back to Shopping Cart"
+msgstr "< Regresar al Carro de Compra"
+
+#: wordpress-checkout/presentation/default/functions.php:348
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: wordpress-checkout/presentation/default/functions.php:360
+msgid "Verifying your order status..."
+msgstr "Verificando el estado de su orden..."
+
+#: wordpress-checkout/presentation/default/functions.php:388
+msgid "Sorry, we are not able to verify the status of your order."
+msgstr "Disculpe, no es posible verificar el estado de su oren."
+
+#: wordpress-checkout/presentation/default/functions.php:389
+msgid ""
+"Thanks. Your order payment can't be verified. We will contact you as soon as "
+"we review your order."
+msgstr ""
+"Gracias. El estado del pago de su orden no pudo ser verificado. Nos "
+"pondremos en contacto con usted en cuanto revisemos su orden."
+
+#: wordpress-checkout/presentation/default/functions.php:494
+msgid "Shipping and handling"
+msgstr "Costo de Envío"
+
+#: wordpress-checkout/presentation/default/functions.php:502
+msgid "Sub-Total"
+msgstr ""
+
+#: wordpress-checkout/presentation/default/functions.php:519
+msgid "There are no items in your cart"
+msgstr "No hay artículos."
+
+#: wordpress-checkout/presentation/default/functions.php:524
+msgid ""
+"The Checkout page is not defined. Please, include the url of your checkout "
+"and processing page on the plugin settings."
+msgstr ""
+"La página de procesamiento no se ha definido. Por favor, incluya la "
+"dirección de la página de procesamiento en la sección de configuración."
+
+#: wordpress-checkout/presentation/default/functions.php:538
+msgid "Product has been added to"
+msgstr "El artículo se agregó al "
+
+#: wordpress-checkout/presentation/default/functions.php:561
+msgid ""
+"The payment process will be executed in test mode through the PayPal "
+"Sandbox; no real transaction will be completed."
+msgstr ""
+"El proceso de pago se efectuará en modo de prueba con PayPal Sandbox; "
+"ninguna transacción real será ejecutada."

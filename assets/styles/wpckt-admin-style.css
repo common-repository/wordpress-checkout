@@ -1,0 +1,108 @@
+/**
+ * Wordpress Checkout 
+ * Presentation: Default 
+ * Plugin URI: http://wordpress-checkout.com/
+ *
+*/
+
+.wpckt-cart-icon {
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	vertical-align: text-top;
+	margin: 0 2px;	
+	background:url(../images/shopping-cart-sm-icon.png) no-repeat;
+}
+
+.wpckt-editor-wrapper {
+   background-color: #fff;
+   padding:16px;
+}
+
+.wpckt-editor-wrapper .form-table td {
+	padding: 5px 10px;
+}
+
+.wpckt-editor-wrapper .form-table th {
+	text-align:right;	
+	padding: 10px 10px 10px 0;
+}
+
+.wpckt-wrong-field  {
+	border:solid red 1px !important;
+}
+
+.wpckt-opaque {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=40);
+
+  /* Netscape */
+  -moz-opacity: 0.4;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.4;
+
+  /* Good browsers */
+  opacity: 0.4;
+}
+
+.wpckt-alert {
+	background-color:#FFFBE4;
+	padding:10px 5px;
+	border-left:4px #ffba00 solid;
+}
+
+.wpckt-sc-cont {
+	position:relative;
+}
+
+.wpckt-spinner {
+	background:url(../images/spinner.gif) no-repeat;
+	width:20px;
+	height:20px;
+	position:absolute;
+	left: 140px;
+	top: 5px;	
+}
+
+.wpckt-border-bottom {
+	border-bottom:solid 1px #dddddd;
+}
+
+/* Tinymce */
+img.wp-checkout {
+	border: 1px dashed #888;
+	background: #f2f8ff url("../images/wp_checkout_label.png") no-repeat scroll center center;
+	background-size: 60px 48px;
+	width: 50%;
+	height: 200px !important;
+}
+
+#wp_checkoutbtns {
+	padding: 2px;
+	position: absolute;
+	display: none;
+	z-index: 155000;
+}
+
+#wp_editwpckt,
+#wp_delwpckt {
+	border-color: #999;
+	background-color: #eee;
+	margin: 2px;
+	padding: 2px;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#wp_editwpckt:hover,
+#wp_delwpckt:hover {
+	border-color: #555;
+	background-color: #ccc;
+}
+
